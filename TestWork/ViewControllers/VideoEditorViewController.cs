@@ -11,7 +11,6 @@ using CoreImage;
 using System.Threading.Tasks;
 using CoreMedia;
 using System.Diagnostics;
-using RangeSlider;
 
 namespace TestWork
 {
@@ -30,7 +29,7 @@ namespace TestWork
 		private AVUrlAsset videoAsset;
 		private AVVideoComposition composition;
 		private LoadingView loadingView;
-		private RangeSliderView rangeSlider;
+	
 
 		static readonly NSString cellToken = new NSString("FilterCell");
 
